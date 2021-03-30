@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<h2>Alapadatok</h2>
+
+<body>
+    <table>
+        <tr>
+            <td class="name"><label for="">Teljes neved</label></td>
+            <td class="inp"><input type="text"></td>
+        </tr>
+
+        <tr>
+            <td class="name"><label for="">Nemed</label></td>
+            <td class="inp">
+                <input type="radio" name="gender" id="male" value="male">
+                <label for="male">Férfi</label>
+                <input type="radio" name="gender" id="female" value="female">
+                <label for="female">Nő</label>
+            </td>
+        </tr>
+        <tr>
+            <td class="name"><label for="">E-mail <sup>*</sup></label></td>
+            <td class="inp"><input type="text"></td>
+        </tr>
+        <tr>
+            <td class="name"><label for="">Telefonszám <sup>*</sup></label></td>
+            <td class="inp"> <select name="" id="szam">
+                    <option value="">36</option>
+                </select><input type="text"></td>
+        </tr>
+        <tr>
+            <td class="name"><label for="">Levelezés alapértelmezett nyelve <sup>*</sup></label></td>
+            <td class="inp"> <select name="" id="szam">
+                    <option value="">Magyar</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+        <td><label for="">Születési idő</label></td>
+        <td><input type="number" placeholder="Év" min="1930" max="2021">
+        <input type="number" placeholder="Hó" min="1" max="12">
+       <input type="number" placeholder="Nap" min="1" max="31">
+    </tr>
+    
+   <!--    <tr>
+            <td><label for="">Születési idő</label>
+            </td>
+            <td><select name="">
+                    <option value="">Év</option>
+                </select></td>
+            <td><select name="">
+                    <option value="">Hó</option>
+                </select></td>
+            <td><select name="">
+                    <option value="">Nap</option>
+                </select></td>
+        </tr>--> 
+        <tr>
+            <td><input type="button" value="Mentés" id="button"></td>
+        </tr>
+    </table>
+</body>
+
+</html>

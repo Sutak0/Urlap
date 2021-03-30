@@ -1,0 +1,51 @@
+sup{
+    color: red;
+}
+
+table{
+    color: rgb(95, 93, 93);
+    background-color: rgb(216, 213, 213);
+    padding: 10px;
+    padding: 5px;
+    width: 500px;
+    height: 300px;
+}
+
+input[type=text]{
+    border: grey 1px solid;
+}
+
+input[type=text]:focus {
+    border: 2px solid rgb(179, 1, 1);
+    border-radius: 2px;
+    outline: none;
+}
+
+
+input[type=number]{
+    border: grey 1px solid;
+}
+
+input[type=number]:focus {
+    border: 2px solid rgb(179, 1, 1);
+    border-radius: 2px;
+    outline: none;
+}
+
+.name{
+    padding: 5px;
+    width: 200px;
+    padding: 10px;
+}
+.inp{
+    width: 150px;
+}
+
+#button{
+    background-color: rgb(255, 78, 8);
+    border: none;
+    width: 70px;
+    height: 30px;
+    color: white;
+    margin-left: 20px;
+}
